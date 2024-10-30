@@ -1,0 +1,1 @@
+jQuery((function(e){"use strict";e("#woocommerce_erste-kekspay-woocommerce_in-test-mode").on("change",(function(t){e('[id*="webshop"]').closest("tr").toggle(!t.target.checked),e('[id*="test-webshop"]').closest("tr").toggle(t.target.checked)})).trigger("change")}));
